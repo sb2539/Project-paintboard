@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/antique_white">
+
+    <!--아이디 찾기-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="아이디 찾기"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"/>
+
+        <!--이름 입력하기-->
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_drawable"
+            android:hint="이름을 입력하세요"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/antique_white4"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"/>
+
+        <!--이메일 입력하기-->
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_drawable"
+            android:hint="이메일을 입력하세요"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/antique_white4"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"/>
+
+        <!--아이디 찾기 버튼-->
+        <Button
+            android:id="@+id/btn_findid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="아이디 찾기"
+            android:background="@drawable/btn_style"
+            android:textColor="@color/antique_white"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"
+
+
+            />
+
+    </LinearLayout>
+
+
+    <!--비밀번호 찾기-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:text="비밀번호 찾기"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"
+            />
+
+
+        <!--이름 입력하기-->
+        <EditText
+            android:id="@+id/et_name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_drawable"
+            android:hint="이름을 입력하세요"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/antique_white4"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"/>
+
+
+        <!--아이디 입력하기-->
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_drawable"
+            android:hint="아이디를 입력하세요"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/antique_white4"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"/>
+
+
+        <!--비밀번호 찾기 버튼-->
+        <Button
+            android:id="@+id/btn_findpass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="비밀번호 찾기"
+            android:background="@drawable/btn_style"
+            android:textColor="@color/antique_white"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"
+
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

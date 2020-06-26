@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/antique_white"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <!--Logo-->
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:background="@drawable/logo_login" />
+
+        <!--Logo_name-->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:fontFamily="@font/misaeng"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:text="@string/logo_name"
+            android:textSize="25dp"/>
+
+        <!--Login_id-->
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_drawable"
+            android:hint="@string/hint_id"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/antique_white4"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"
+
+            />
+
+
+        <!--Login_password-->
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_drawable"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/antique_white4"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"
+            />
+
+        <!--Click_login-->
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="로그인"
+            android:textColor="@color/antique_white"
+            android:background="@drawable/btn_style"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <!--Click_register-->
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="@string/register"
+                android:background="@drawable/btn_style"
+                android:textColor="@color/antique_white"
+                android:textSize="25dp"
+                android:fontFamily="@font/misaeng"
+
+                />
+
+            <!--Click_findId-->
+            <Button
+                android:id="@+id/btn_find"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:text="@string/find_id"
+                android:background="@drawable/btn_style"
+                android:textColor="@color/antique_white"
+                android:textSize="25dp"
+                android:fontFamily="@font/misaeng"
+
+
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

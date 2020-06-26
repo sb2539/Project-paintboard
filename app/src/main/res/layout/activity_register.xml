@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/antique_white">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="회원가입"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"
+
+            />
+
+    </LinearLayout>
+    <!--아이디 상단 부분 레이아웃-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        >
+
+        <EditText
+            android:id="@+id/et_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edittext_drawable"
+            android:hint="@string/hint_id"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/antique_white4"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"
+            android:layout_weight="1"/>
+
+        <!--아이디 체크 버튼-->
+        <Button
+            android:id="@+id/btn_idcheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:layout_weight="3"
+            android:text="중복 체크"
+            android:background="@drawable/btn_style"
+            android:textColor="@color/antique_white"
+            android:textSize="20dp"
+            android:fontFamily="@font/misaeng"
+
+
+            />
+
+    </LinearLayout>
+
+    <!--비밀번호부터 이메일 까지의 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_weight="8">
+
+        <EditText
+            android:id="@+id/et_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_drawable"
+            android:hint="@string/hint_password"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/antique_white4"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"/>
+        <!--구현 안된 부분-->
+        <!--
+        <EditText
+            android:id="@+id/register_passwordcheck"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_drawable"
+            android:hint="@string/hint_password_check"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+            -->
+
+        <!--비밀번호 안내 문구-->
+        <!---
+        <TextView
+            android:id="@+id/register_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@color/color04"
+            android:hint="*[문구]비밀번호는 8자 이상, 영문 특수기호 포함."
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+        -->
+
+        <!--이름 입력-->
+        <EditText
+            android:id="@+id/et_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_drawable"
+            android:hint="이름"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/antique_white4"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"/>
+
+        <!--이메일 입력-->
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/edittext_drawable"
+            android:hint="이메일"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/antique_white4"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"/>
+
+    </LinearLayout>
+
+    <!--회원 가입 부분 레이아웃-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            android:background="@drawable/btn_style"
+            android:textColor="@color/antique_white"
+            android:textSize="25dp"
+            android:fontFamily="@font/misaeng"
+
+
+
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

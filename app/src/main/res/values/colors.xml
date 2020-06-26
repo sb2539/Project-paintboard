@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#eeeeee</color>
+    <color name="darkgray">#aaaaaa</color>
+    <color name="black">#FF000000</color>
+    <color name="colorGray">#8C8C8C</color>
+
+    <!-- color image view -->
+    <color name="color00">#FF4A67</color>
+    <color name="color01">#7C4CB8</color>
+    <color name="color02">#FF7B67</color>
+    <color name="color03">#FF8EBD</color>
+    <color name="color04">#FFC667</color>
+    <color name="color05">#FFB08E</color>
+    <color name="color06">#48B367</color>
+    <color name="color07">#50BEB8</color>
+    <color name="color08">#507BB8</color>
+    <color name="color09">#393884</color>
+    <color name="color10">#000000</color>
+    <color name="color11">#FFFFFF</color>
+
+    <!--입력 칸 색상-->
+    <color name="antique_white">#faebd7</color>
+    <color name="antique_white2">#eedfcc</color>
+    <color name="antique_white3">#cdc0b0</color>
+    <color name="antique_white4">#8b8378</color>
+
+
+</resources>

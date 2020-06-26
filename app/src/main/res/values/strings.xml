@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">DrawView</string>
+
+    <!-- tutorial -->
+    <string name="tutorial01">일기 쓰던 그때 그시절 나의 그림\n못그려도 이쁜 나의 그림을 오마이데이즈와 함께 담아보세요.</string>
+    <string name="tutorial02">오마이데이즈는 자신의 감성을 담은 그림일기를 그리는\n공간을 제공합니다.</string>
+    <string name="tutorial03">그림일기를 완성하고\n여러분의 하루를 기록하세요.</string>
+
+    <!-- main -->
+    <string name="main.noimage">오마이데이즈가 당신의 추억을 함께 합니다.</string>
+
+    <!-- popup -->
+    <string name="popup.exit">정말로 나가시겠습니까?</string>
+    <string name="popup.save">정말로 저장하시겠습니까?</string>
+
+    <string name="popup.button.share">공유하기</string>
+    <string name="popup.button.save">저장하기</string>
+    <string name="popup.button.modify">수정하기</string>
+    <string name="popup.button.remove">삭제하기</string>
+
+
+    <!-- color -->
+    <string name="color01">#FF4A67</string>
+    <string name="color02">#7C4CB8</string>
+    <string name="color03">#FF7B67</string>
+    <string name="color04">#FF8EBD</string>
+    <string name="color05">#FFC667</string>
+    <string name="color06">#FFB08E</string>
+    <string name="color07">#48B367</string>
+    <string name="color08">#50BEB8</string>
+    <string name="color09">#507BB8</string>
+    <string name="color10">#000000</string>
+    <string name="color11">#393884</string>
+    <string name="color12">#FFFFFF</string>
+
+    <!--login-->
+
+
+        <string name="logo_name">Oh My Days</string>
+        <string name="hint_id">아이디</string>
+        <string name="hint_password">비밀번호</string>
+        <string name="hint_password_check">비밀번호 확인</string>
+        <string name="login">로그인 하기</string>
+        <string name="register">회원 가입</string>
+        <string name="find_id">아이디/비밀번호 찾기</string>
+</resources>
